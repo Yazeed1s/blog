@@ -1,0 +1,70 @@
+baseURL = "http://example.org/"
+defaultContentLanguage = "en"
+languageCode = "en"
+title = "Yazeed.dev"
+theme = "gokarna"
+enableRobotsTXT = true
+pygmentsStyle = "github-dark"
+
+[params]
+	# footer = "The Marauders"
+	description = "Sky above, sand below and peace within"
+	avatarURL = "images/b.png"
+	AvatarAltText = "avatar"
+	avatarSize = "size-s"
+	accentColor = "#8BB8D0"
+	# "popular" (order posts by weight), "recent" (order posts by date)
+	# showPostsOnHomePage = ""
+	metaKeywords = ["blog", "gokarna", "hugo"]
+	togglePreviousAndNextButtons = "true"
+	customHeadHTML = """
+	
+	"""
+	socialIcons = [
+		{ name = "twitter", url = "https://example.com" },
+		{ name = "github", url = "https://example.com" },
+		# { name = "email", url = "mailto:example@example.com" },
+		{ name = "discord", url = "https://example.com" },
+	]
+# metaKeywords = ["blog", "gokarna", "hugo"]
+[menu]
+	[[menu.main]]
+		name = "Home"
+		pre = "<span data-feather='home'></span>"
+		url = "/"
+		weight = 1
+
+  	[[menu.main]]
+		#identifier = "posts"
+		name = "Posts"
+		pre = "<span data-feather='book'></span>"
+		url = "/posts/"
+		post = ""
+		weight = 2
+
+  	[[menu.main]]
+		#identifier = "tags"
+		name = "Tags"
+		pre = "<span data-feather='tag'></span>"
+		url = "/tags/"
+		weight = 2
+
+    [[menu.main]]
+		name = "Projects"
+		pre = "<span data-feather='code'></span>"
+		url = "/projects/"
+		weight = 2
+
+  	[[menu.main]]
+		identifier = "github"
+		url = "https://github.com"
+		weight = 3
+		# We use feather-icons: https://feathericons.com/
+		pre = "<span data-feather='github'></span>"
+
+
+[markup]
+	[markup.tableOfContents]
+		startLevel = 1
+		endLevel = 4
+		ordered = false
