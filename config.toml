@@ -3,12 +3,12 @@ defaultContentLanguage = "en"
 languageCode = "en"
 title = "Yazeed.dev"
 theme = "gokarna"
-enableRobotsTXT = true
+enableRobotsTXT = false
 pygmentsStyle = "github-dark"
 
 [params]
 	# footer = "The Marauders"
-	description = "Sky above, sand below and peace within"
+	description = "I move bytes around!"
 	avatarURL = "images/b.png"
 	AvatarAltText = "avatar"
 	avatarSize = "size-s"
