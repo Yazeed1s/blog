@@ -30,26 +30,26 @@ socialIcons = [
 [[menu.main]]
 name = "Home"
 pre = "<span data-feather='home'></span>"
-url = "/"
+url = "/blog/"
 weight = 1
 
 [[menu.main]]
 name = "Posts"
 pre = "<span data-feather='book'></span>"
-url = "/posts/"
+url = "/blog/posts/"
 weight = 2
 
 [[menu.main]]
 #identifier = "tags"
 name = "Tags"
 pre = "<span data-feather='tag'></span>"
-url = "/tags/"
+url = "/blog/tags/"
 weight = 3
 
 [[menu.main]]
 name = "Projects"
 pre = "<span data-feather='code'></span>"
-url = "/projects/"
+url = "/blog/projects/"
 weight = 4
 
 [[menu.main]]
