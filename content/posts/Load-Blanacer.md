@@ -25,13 +25,13 @@ The workload on a single server will increase as the business demand & number of
 
 Generally speaking, modern high-traffic websites serve hundreds of thousands, if not millions, of **concurrent** requests from users (think of amazon as an example). High-traffic systems need `N` number of servers & some sort of workload distribution in order to function effectively and efficiently. 
 
-***
+---
 
 ## Types of load balancers
 
 A load balancer can be hardware-based or software based and it can operate at different levels of the network stack, including the application layer, transport layer, and network layer.
 
-***
+---
 
 ## How does a load balancer work?
 
@@ -52,7 +52,7 @@ A general overview of how load balancers work:
 
 In this way, the load balancer acts as an intermediary between the client and the servers, distributing traffic in a manner that helps to improve performance, reliability, and availability. The specific details of how a load balancer works can vary depending on the type of load balancer and the load balancing algorithm being used, but the general principles outlined above remain the same.
 
-***
+---
 
 ## Is it essential? 
 
@@ -62,7 +62,7 @@ If the system is expected to handle a large amount of traffic, a load balancer c
 
 In short, while a load balancer may not be essential for every system, it can provide a number of valuable benefits that can help organizations to improve the performance, reliability, security, and scalability of their applications and services.
 
-***
+---
 
 ## Benefits of load balancers:
 
@@ -82,7 +82,7 @@ Load balancers provide several key benefits, including:
  
 Overall, load balancers provide a number of benefits that can definitely help to improve the performance, reliability, security, and scalability of the application/services.
 
-***
+---
 
 ## Single point of failure!
 As you must've already guessed, despite all the great benefits, a load balancer itself can be a single point of failure. To prevent this, a second or `N` number of load balancers can be used in a cluster mode. And, if there's a failure detection and the active load balancer fails, another load balancer can take over.
@@ -96,4 +96,7 @@ Now, let's discuss commonly used algorithms:
 -   **Least Response Time**: Sends requests to the server selected by a formula that combines the fastest response time and fewest active connections.
 -   **Least Bandwidth**: This method measures traffic in megabits per second (Mbps), sending client requests to the server with the least Mbps of traffic.
 -   **Hashing**: Distributes requests based on a key we define, such as the client IP address or the request URL.
-***
+---
+
+## Conclusion
+In conclusion, a load balancer is an essential component for many modern high-traffic systems that serve a large number of concurrent requests. By distributing traffic across multiple servers, load balancers provide several key benefits such as improved reliability and availability, better performance, and scalability. Although a load balancer itself can be a single point of failure, a second or N number of load balancers can be used in a cluster mode to prevent this. The use of load balancing algorithms, such as round-robin, least connections, and IP hash, can help distribute traffic more efficiently. Ultimately, the specific needs and requirements of the system will determine whether or not a load balancer is essential.
