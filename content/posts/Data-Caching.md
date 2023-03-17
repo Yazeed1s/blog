@@ -7,7 +7,7 @@ type: post
 weight: 20
 showTableOfContents: false
 ---
-
+***
 In computing, a cache refers to the technique of temporarily storing frequently accessed data in a fast-accessible storage layer, such as RAM, to reduce the response time and improve the overall system performance. Caching is widely used in various systems, including web applications, databases, operating systems, and more.
 
 ## Why Use Caching?
@@ -69,6 +69,7 @@ Maintaining cache consistency can be another challenge in distributed systems or
 ### 4. Cache Security
 
 Caching can also introduce security risks, as the cached data can be accessed or manipulated by unauthorized users. For example, a malicious user can inject fake data or steal sensitive data from the cache. Therefore, it is essential to implement proper security measures, such as data encryption, access control, and data validation, to protect the cache from security threats.
+
 ---
 ## Conclusion
 
